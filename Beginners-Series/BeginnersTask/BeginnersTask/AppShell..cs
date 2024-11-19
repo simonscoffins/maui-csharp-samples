@@ -3,7 +3,7 @@
 public class AppShell : Shell {
     public AppShell(MainPage mainPage) {
 
-        Title = "Basic Template";
+        Title = "Beginners Task";
         FlyoutBehavior = FlyoutBehavior.Disabled;
 
         var shellContent = new ShellContent {
