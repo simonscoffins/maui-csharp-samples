@@ -7,10 +7,11 @@ namespace ShellFlyout {
     public partial class AppShell : Shell {
         public AppShell() {
 
-            Title = "Basic Template";
+            Title = "Shell Flyout";
             FlyoutBehavior = FlyoutBehavior.Flyout;
 
             var resources = App.Current?.Resources;
+
 
             // Flyout One
             Items.Add(new FlyoutItem {
